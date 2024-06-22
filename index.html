@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Novell services login </h1>
+    <table>
+        <tr>
+            <td> username </td>
+            <td> <input type="text" name="username" value=""  </td>
+        </tr>
+       <tr>
+        <td> Password </td>
+        <td>  <input type="password" name="password" value=""></td>
+       </tr>
+       <tr>
+        <td> City of employment </td>
+        <td> <input type="text" name="text" value="" > </td>
+       </tr>
+  <tr>
+    <td> Web server </td>
+   <td>
+      <select name="choose a server" id="">
+        <option value="Choose a server">-Choose a server-</option>
+        <option value="Choose a server"> Server1</option>
+        <option value="Choose a server"> Server2</option>
+        <option value="Choose a server"> Server3</option>
+    </select>
+   </td>  
+</tr>
+<tr>
+    <td colspan="1">Please specifiy <br /> your Role:</td>
+    <td>
+        Admin <input type="radio" name="Role" value="Admin">
+        Engineer <input type="radio" name="Role" value="Engineer">
+        Manager <input type="radio" name="Role" value="manager">
+        Guest <input type="radio" name="Role" value="Guest">
+    </td>
+    </tr>
+<tr>
+    <td> Single Sign-on <br /> to the following:</td>
+    <td>
+        Mail:
+        <input type="checkbox" name="services" value="Mail" id="">
+        Payroll:
+        <input type="checkbox" name="services" value="Payroll" id="">
+        Self-service:
+        <input type="checkbox" name="services" value="Self-service" id="">
+    </td>
+</tr>
+<tr>
+    <td><input type="submit" value="login"></td>
+    <td> <input type="reset" value="Reset"></td>
+</tr>
+
+
+
+
+
+    </table>
+</body>
+</html>
